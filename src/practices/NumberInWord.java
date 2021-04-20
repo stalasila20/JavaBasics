@@ -1,6 +1,11 @@
 package practices;
 
 public class NumberInWord {
+
+    public static void main(String[] args) {
+        printNumberInWord(5);
+    }
+
     public static void printNumberInWord(int num){
         switch(num){
             case 0:
